@@ -1,12 +1,49 @@
 .App {
+  display: flex;
   text-align: center;
+  height: 100%; 
+  width: 60%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20vh;
+}
+
+h1 {
+  font-size: 5vw;
+
+}
+
+
+h2  {
+  padding-bottom: 10px;
+  font-size: 2vw;
+}
+
+body, html, #root {
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: lightcyan;
+background-image: url('https://s3.amazonaws.com/mk-website-media/wp-content/uploads/2018/10/18230852/Wallpaper-MuffinMani_Confetti_1.jpg');
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+li {
+  text-align: initial;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+/*
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,7 +51,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0e0f0f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,7 +60,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+*/
 .App-link {
   color: #61dafb;
 }
