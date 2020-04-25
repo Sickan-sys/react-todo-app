@@ -49,7 +49,7 @@ function App() {
   return (
     <div className="App">
       <Typography >
-        <h1>What to-do?! 🤷🏻‍♀️</h1>
+        <h1>What to-do?! <span role="img" aria-label="wondering girl">🤷🏻‍♀️</span></h1>
       </Typography>
       <Typography>
         <h2>Make a list!</h2>
